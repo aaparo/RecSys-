@@ -58,6 +58,7 @@ price = round(mean(user_likes$price))
 price_max = price + 3000
 result_cars = subset(result_cars, price < price_max)
 
+
 cat("ID:", user_id, "\n")
 cat(nrow(user_likes), "likes.\n")
 cat(nrow(similarity), "utenti simili.\n")
